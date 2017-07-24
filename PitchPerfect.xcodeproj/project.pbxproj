@@ -12,6 +12,7 @@
 		875C80601F265839005539C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875C805E1F265839005539C2 /* Main.storyboard */; };
 		875C80621F265839005539C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875C80611F265839005539C2 /* Assets.xcassets */; };
 		875C80651F265839005539C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875C80631F265839005539C2 /* LaunchScreen.storyboard */; };
+		875C806E1F26B31C005539C2 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C806D1F26B31C005539C2 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		875C80611F265839005539C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875C80641F265839005539C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875C80661F265839005539C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875C806D1F26B31C005539C2 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				875C806C1F2674CF005539C2 /* Support Files */,
 				875C805C1F265839005539C2 /* RecordSoundsViewController.swift */,
+				875C806D1F26B31C005539C2 /* PlaySoundsViewController.swift */,
 				875C805E1F265839005539C2 /* Main.storyboard */,
 			);
 			path = PitchPerfect;
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				875C805D1F265839005539C2 /* RecordSoundsViewController.swift in Sources */,
+				875C806E1F26B31C005539C2 /* PlaySoundsViewController.swift in Sources */,
 				875C805B1F265839005539C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
