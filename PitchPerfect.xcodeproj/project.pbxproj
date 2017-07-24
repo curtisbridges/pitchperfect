@@ -54,14 +54,22 @@
 		875C80591F265839005539C2 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				875C805A1F265839005539C2 /* AppDelegate.swift */,
+				875C806C1F2674CF005539C2 /* Support Files */,
 				875C805C1F265839005539C2 /* ViewController.swift */,
 				875C805E1F265839005539C2 /* Main.storyboard */,
+			);
+			path = PitchPerfect;
+			sourceTree = "<group>";
+		};
+		875C806C1F2674CF005539C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				875C805A1F265839005539C2 /* AppDelegate.swift */,
 				875C80611F265839005539C2 /* Assets.xcassets */,
 				875C80631F265839005539C2 /* LaunchScreen.storyboard */,
 				875C80661F265839005539C2 /* Info.plist */,
 			);
-			path = PitchPerfect;
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
